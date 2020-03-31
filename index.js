@@ -2,6 +2,11 @@ const fs = require('fs');
 const path = require('path');
 
 const find = {
+    /**
+     * Finds first directory that matches the target request. Direction of the searching: inside the tree. Returns 'null' if directory doesn't exists. 
+     * @param {string} root Starting directory
+     * @param {string} target Search directory. Case sensitive
+     */
     dirSyncDown: (root, target) => {
         if (!root || !target)
             throw `'root' or 'target' dirs can't be null or undefined.`
@@ -27,10 +32,15 @@ const find = {
         return result;
     },
 
+    /**
+     * Finds first directory that matches the target request. Direction of the searching: outside the tree. Returns 'null' if directory doesn't exists. 
+     * @param {string} root Starting directory
+     * @param {string} target Search directory. Case sensitive
+     */
     dirSyncUp: (root, target) => {
         if (!root || !target)
             throw `'root' or 'target' dirs can't be null or undefined.`
-        
+
         if (root === '/')
             return null;
 

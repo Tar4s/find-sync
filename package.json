@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Sync bi-directional recursive directory search engine (and maybe even files in the future)",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/Tar4s/find-sync"
+  },
   "keywords": [
     "find",
     "dir",
