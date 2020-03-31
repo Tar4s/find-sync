@@ -1,0 +1,15 @@
+{
+  "name": "find-sync",
+  "version": "0.0.1",
+  "description": "Sync bi-directional recursive directory search engine (and maybe even files in the future)",
+  "main": "index.js",
+  "keywords": [
+    "find",
+    "dir",
+    "directory",
+    "sync",
+    "recursive"
+  ],
+  "author": "Taras Nagorny",
+  "license": "ISC"
+}
