@@ -1,6 +1,6 @@
 {
   "name": "find-sync",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sync bi-directional recursive directory search engine (and maybe even files in the future)",
   "main": "index.js",
   "repository": {
